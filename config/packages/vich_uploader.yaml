@@ -1,0 +1,7 @@
+vich_uploader:
+    db_driver: orm
+    mappings:
+        firma_logo:
+            uri_prefix: /images/firma_logos
+            upload_destination: '%kernel.project_dir%/public/images/firma_logos'
+            namer: Vich\UploaderBundle\Naming\UniqidNamer
